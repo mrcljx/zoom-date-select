@@ -4,8 +4,21 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>Example 01</title>
+  <link rel="stylesheet" href="../src/zoom-date-select.css" type="text/css" media="screen" title="no title" charset="utf-8">
+  <script src="../vendor/date.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../vendor/jquery-1.4.2.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../vendor/jquery-ui-1.8.2.custom.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../vendor/jquery-css-transform.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../vendor/jquery-animate-css-rotate-scale.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../src/jquery.zoom-date-select.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
-
+  <input type="date" name="date" value="2007-10-05">
+  <div id="calendar" class="zoom-ds"></div>
+  <script type="text/javascript">
+    $("#calendar").zoomDateSelect({
+      
+    });
+  </script>
 </body>
 </html>

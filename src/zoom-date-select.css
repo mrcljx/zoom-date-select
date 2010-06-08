@@ -1,0 +1,13 @@
+.zoom-ds table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+.zoom-ds table tbody td {
+  text-align: center;
+  padding: 0;
+  border: 1px solid transparent;
+  line-height: 30px;
+  background-color: white;
+  font-size: 14pt;
+}
